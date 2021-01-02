@@ -1,0 +1,136 @@
+@import'fuentes','menu','inicio','servicios', 'contacto','trulala';
+
+@media only screen and ( max-width: #{$breakpoint-tablet - 1px} ){
+#clientes{
+    margin-top: 10%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    font-family:$fuente-info;
+    flex-wrap: wrap;
+  }
+  .contenido {
+    width: 50%;
+    padding: 5%;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: $fuente-info;
+    border: 2px solid $colorsecundario;
+    margin: 10px 5px;
+    text-align: center;
+    width: 298.88px;
+    height: 295.75px;
+    text-align: center;
+
+  }
+
+
+  
+  #cliente-1 {
+  
+    background-image: url(../img/imgoakiRecurso1.jpg);
+    background-repeat: no-repeat;
+  
+  }
+  
+  #cliente-2 {
+  
+    background-image: url(../img/comisarioimgRecurso1.png);
+    background-repeat: no-repeat;
+  }
+  
+  #cliente-3 {
+  
+    background-image: url(../img/directormuseoRecurso.png);
+    background-repeat: no-repeat;
+  }
+  
+  #cliente-4 {
+  
+    background-image: url(../img/larguirucho-recurso.png);
+    background-repeat: no-repeat;
+  }
+  
+  #cliente-5 {
+  
+    background-image: url(../img/goldsilverRecurso1.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  #cliente-6{
+  
+    background-image: url(../img/boxintracioRecurso1.jpg);
+    background-repeat: no-repeat
+  }
+}
+
+@media only screen and(min-width: $breakpoint-tablet){
+
+#clientes{
+  margin-top: 10%;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  font-family:$fuente-info;
+  flex-wrap: wrap;
+}
+.contenido {
+  width: 50%;
+  padding: 5%;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-family: $fuente-info;
+  border: 2px solid $colorprimario;
+  margin: 10px 5px;
+  text-align: center;
+  width: 298.88px;
+  height: 295.75px;
+  text-align: center;
+
+}
+
+
+
+#cliente-1 {
+
+  background-image: url(../img/imgoakiRecurso1.jpg);
+  background-repeat: no-repeat;
+
+}
+
+#cliente-2 {
+
+  background-image: url(../img/comisarioimgRecurso1.png);
+  background-repeat: no-repeat;
+}
+
+#cliente-3 {
+
+  background-image: url(../img/directormuseoRecurso.png);
+  background-repeat: no-repeat;
+}
+
+#cliente-4 {
+
+  background-image: url(../img/larguirucho-recurso.png);
+  background-repeat: no-repeat;
+}
+
+#cliente-5 {
+
+  background-image: url(../img/goldsilverRecurso1.jpg);
+  background-repeat: no-repeat;
+}
+
+#cliente-6{
+
+  background-image: url(../img/boxintracioRecurso1.jpg);
+  background-repeat: no-repeat
+}
+}
+
+

@@ -1,0 +1,19 @@
+.gifinicio{
+    display: flex;
+    justify-content: center ; 
+    animation-name: desvanecer;
+    animation-duration: 5s;
+    margin: auto;
+    width: 50%;
+    margin-top:10%;
+      
+  }
+
+  @keyframes desvanecer{
+    0%{ 
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }

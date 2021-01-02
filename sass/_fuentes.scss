@@ -1,0 +1,18 @@
+@font-face{
+    src: url(../fonts/Gobold-Blocky-Italic.otf)format('truetype');
+    font-family: Gobold-Blocky-Italic ;
+}
+
+
+
+@font-face{
+    src: url(../fonts/Oswald.ttf) format('truetype');
+    font-family: oswald;
+}
+$fuente-info:oswald;
+$fuente-menu:Gobold-Blocky-Italic; 
+
+$colorsecundario: #e2a9a9;
+$colorprimario:#dfeded;
+    
+$colormenu-xl:black;

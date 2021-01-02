@@ -1,0 +1,112 @@
+@media only screen and ( max-width: #{$breakpoint-tablet - 1px} ){
+     
+.información {
+    margin-top: 15%;
+    text-align: center;
+}
+
+
+.trulala-img img {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 20%;
+    margin-top: 3%;
+    display: inline;
+    background-color: #fae5d3
+    
+}
+#asado{
+    height: 249.986px;
+}
+#pucho {
+    margin-left: 8%;
+    height: 249.986px;
+}
+
+#pichichus {
+    margin-right: 3%;
+}
+
+.turismo p {
+    font-family:$fuente-info;
+    font-size: 1.5rem;
+    background-color: #fae5d3;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    line-height: 2rem;
+    z-index: -1;
+}
+
+.turismo {
+    background-color: $colorsecundario;
+   z-index: -1;
+}
+
+#mapa {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #fae5d3;
+    width: 100vw;
+}  
+}
+
+
+
+@media only screen and(min-width: $breakpoint-tablet){
+    
+.información {
+    margin-top: 15%;
+    text-align: center;
+}
+
+
+.trulala-img img {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 20%;
+    margin-top: 3%;
+    display: inline;
+    background-color: #fae5d3
+    
+}
+#asado{
+    height: 249.986px;
+}
+#pucho {
+    margin-left: 8%;
+    height: 249.986px;
+}
+
+#pichichus {
+    margin-right: 3%;
+}
+
+.turismo p {
+    font-family:$fuente-info;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    background-color: $colorprimario;
+    text-align: center;
+    line-height: 2rem;
+    z-index: -1;
+}
+
+.turismo {
+    background-color: $colorprimario;
+   z-index: -1;
+   margin-top: 5%;
+}
+
+#mapa {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: #fae5d3;
+    margin: 0 20% 0 30%;
+}
+}
