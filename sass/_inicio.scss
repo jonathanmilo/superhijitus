@@ -1,75 +1,85 @@
 
             @media only screen and(min-width: $breakpoint-tablet){
-              .menu-size-s{
-                  display: none;
-              }
-              .menú {
-              top: 5%;
-              margin-bottom: 10%;
-              display:flex;
-              position: fixed;
-              list-style-type: none;
-              text-decoration: none;
-              justify-content: space-around;
-              background-color: #ffffff;
-              width: 100%;
-              position: absolute;
-              margin-bottom: 3%;
-              z-index: 3;
-             /* flex-wrap: wrap;*/
-              
-                  ul{
-                      transform: skewx(-7deg);
-                      justify-content: center;
-                      margin: auto;
-                  };
-                  li{
-                       font-family: $fuente-menu;
-                       color: $colormenu-xl;
-                      list-style: none;
-                       text-decoration: none;
-                       display: inline;
-                       font-size: 2rem;
-                       
-                       
-                       
-                          a{
-                              color:$colormenu-xl;
-                              
-                              
-                          }
-                          a:hover {
-                              text-decoration: line-through;
-                            }
-                  }
-                  .subtrulala{
-                      position: absolute;;
-                      display: none;
-                      margin-left: 88%;
-                      width: 20%;
-                        justify-items:start;
-                       z-index: -1;
-                      border:$colormenu-xl 1px solid;
-                      
+              .audio{
+                display: flex;
+                align-content: flex-end;
+                margin-top: 1%;
+                margin-left: 86%;
+                position: fixed;
+                z-index: 1;
+                width: 9%;
+            }
+            
+            .menu-size-s{
+                display: none;
+            }
+            .menú {
+            top: 5%;
+            margin-bottom: 10%;
+            display:flex;
+            position: fixed;
+            list-style-type: none;
+            text-decoration: none;
+            justify-content: space-around;
+            background-color: #ffffff;
+            width: 100%;
+            position: absolute;
+            margin-bottom: 3%;
+            z-index: 3;
+           /* flex-wrap: wrap;*/
+            
+                ul{
+                    transform: skewx(-7deg);
+                    justify-content: center;
+                    margin: auto;
+                };
+                li{
+                     font-family: $fuente-menu;
+                     color: $colormenu-xl;
+                    list-style: none;
+                     text-decoration: none;
+                     display: inline;
+                     font-size: 2rem;
                      
-                      a{
-                            font-size: 1rem;
-                            margin-bottom: -20px;
-                             margin-top: -20px;  
+                     
+                     
+                        a{
+                            color:$colormenu-xl;
+                            
+                            
                         }
-                  }
-                  .tr:hover .subtrulala{
-                      display: flex;
-                      flex-direction: column;   
-                      transform: skewx(+7deg);
-                      justify-content: right;
-                         a{
-                             margin-bottom: -20px;
-                             margin-top: -20px;   
-                         }
-                
-                  }
-               }
+                        a:hover {
+                            text-decoration: line-through;
+                          }
+                }
+                .subtrulala{
+                    position: absolute;;
+                    display: none;
+                    margin-left: 88%;
+                    width: 20%;
+                      justify-items:start;
+                     z-index: -1;
+                    border:$colormenu-xl 1px solid;
+                    
+                   
+                    a{
+                          font-size: 1rem;
+                          margin-bottom: -20px;
+                           margin-top: -20px;  
+                      }
+                }
+                .tr:hover .subtrulala{
+                    display: flex;
+                    flex-direction: column;   
+                    transform: skewx(+7deg);
+                    justify-content: right;
+                       a{
+                           margin-bottom: -20px;
+                           margin-top: -20px;   
+                       }
+              
+                }
+             }
                .gifinicio{
                 display: flex;
                 justify-content: center ; 
@@ -89,6 +99,7 @@
                     opacity: 1;
                 }
               }
+              
           }
 
 
@@ -114,60 +125,70 @@
       100%{
           opacity: 1;
       }
-    }
-   
-    .menu-size-s{
-        display: flex;
-        background-image:url(../img/icono-menu.png);
-        background-repeat: no-repeat;
-        border-radius: 100%;
-        width:50px ;
-        height:70px ;
-        border: 1px solid blue;
-        justify-content: center;
-        margin: auto;
-        margin-top: 5%;
-        border: 15% 15%;
-    }
-        
-                .menú{
-                    display: flex;
-                    flex-direction: row;
-                    list-style: none;
-                    text-decoration: none;
-                    font-family: 'Courier New', Courier, monospace;
-                    text-decoration: none;
-                    align-items: center;
-                    margin: auto;
-                    flex-wrap: inherit;
-                   
-                    ul{
-                        margin-top: 1rem;
-                        justify-content: center;
-                        margin: auto;
-                        padding-left: 0px;
+    }  .audio{
+      display: flex;
+      align-content: flex-end;
+      margin-top: 14rem;
+      margin-left: -2%;
+      position: fixed;
+      z-index: 1;
+      width: 15%;
+  }
+  
+ 
+  .menu-size-s{
+      display: flex;
+      background-image:url(../img/icono-menu.png);
+      background-repeat: no-repeat;
+      border-radius: 100%;
+      width:50px ;
+      height:70px ;
+      border: 1px solid blue;
+      justify-content: center;
+      margin: auto;
+      margin-top: 5%;
+      border: 15% 15%;
+  }
+      
+              .menú{
+                  display: flex;
+                  flex-direction: row;
+                  list-style: none;
+                  text-decoration: none;
+                  font-family: 'Courier New', Courier, monospace;
+                  text-decoration: none;
+                  align-items: center;
+                  margin: auto;
+                  flex-wrap: inherit;
+                 
+                  ul{
+                      margin-top: 1rem;
+                      justify-content: center;
+                      margin: auto;
+                      padding-left: 0px;
 
-                    }
-                
-                li{
-                    @include fuente-menu;
-                   list-style: none;
-                    text-decoration: none;
-                    display: inline;
-                    font-size:1rem;
-                    color: $colorsecundario;
-                    margin-top: 1rem;
-                    justify-content: center;
-                    margin: auto;
+                  }
+              
+              li{
+                  @include fuente-menu;
+                 list-style: none;
+                  text-decoration: none;
+                  display: inline;
+                  font-size:1rem;
+                  color: $colorsecundario;
+                  margin-top: 1rem;
+                  justify-content: center;
+                  margin: auto;
 
-                    a{
-                        color: blueviolet;
-                    }
-                }
-                 }
-                .subtrulala{
-                    display: none;
-                }
+                  a{
+                      color: blueviolet;
+                  }
+              }
+               }
+              .subtrulala{
+                  display: none;
+              }
+          
             
             }
 

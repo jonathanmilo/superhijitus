@@ -12,6 +12,16 @@
   font-family: Gobold-Blocky-Italic;
 }
 @media only screen and (max-width: 767px) {
+  .audio {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 14rem;
+    margin-left: -2%;
+    position: fixed;
+    z-index: 1;
+    width: 15%;
+  }
+
   .menu-size-s {
     display: flex;
     background-image: url(../img/icono-menu.png);
@@ -102,6 +112,16 @@
 }
 */
 @media only screen and (min-width: 768px) {
+  .audio {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 1%;
+    margin-left: 86%;
+    position: fixed;
+    z-index: 1;
+    width: 9%;
+  }
+
   .menu-size-s {
     display: none;
   }
@@ -165,16 +185,17 @@
     margin-top: -20px;
   }
 }
-.audio {
-  align-content: flex-end;
-  margin-top: 60%;
-  margin-left: 70%;
-  position: fixed;
-  z-index: 1;
-  width: 27%;
-}
-
 @media only screen and (min-width: 768px) {
+  .audio {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 1%;
+    margin-left: 86%;
+    position: fixed;
+    z-index: 1;
+    width: 9%;
+  }
+
   .menu-size-s {
     display: none;
   }
@@ -276,6 +297,16 @@
       opacity: 1;
     }
   }
+  .audio {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 14rem;
+    margin-left: -2%;
+    position: fixed;
+    z-index: 1;
+    width: 15%;
+  }
+
   .menu-size-s {
     display: flex;
     background-image: url(../img/icono-menu.png);
