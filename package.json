@@ -9,6 +9,10 @@
   },
   "author": "joni",
   "license": "ISC",
+  "devDependencies": {
+    "node-sass": "4.14.1",
+    "nodemon": "2.0.4"
+  },
   "description": "",
   "dependencies": {
     "dashdash": "^2.0.0"
