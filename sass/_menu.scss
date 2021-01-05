@@ -29,16 +29,18 @@ $breakpoint-tablet: 768px;
         background-image:url(../img/icono-menu.png);
         background-repeat: no-repeat;
         border-radius: 100%;
-        width:50px ;
+        width: 53px; ;
         height:70px ;
         border: 1px solid blue;
         justify-content: center;
         margin: auto;
         margin-top: 5%;
         border: 15% 15%;
+        background-position: center;
     }
-        
-                .menú{
+
+
+     .menú{
                     display: flex;
                     flex-direction: row;
                     list-style: none;
@@ -73,51 +75,62 @@ $breakpoint-tablet: 768px;
                     }
                 }
                  }
-                .subtrulala{
-                    display: none;
-                }
-            
-            }
-   
-/*
-@media only screen and (min-width: #{$tamaño-cell-horizontal}) and( max-width: #{$breakpoint-tablet -1px}){
-    .menú{
-        display: none;
+     .subtrulala{display: none;}
+
+     @keyframes vertical{
+
+        0%{
+            transform: translateY(0);
+            transform: rotateX(180deg);
+        }
+        50%{ transform: translateY(500px);
+        }
+        99% {
+            transform: translateY(0x);
+            transform: rotateX(-180deg);
+        }
+        100%{
+            display:contents ;
+        }
     }
-   
-    .menu-size-s{
-        display: flex;
-        background-image:url(../img/icono-menu.png);
+    #volador{
+      background-image: url(../img/volador.svg);
         background-repeat: no-repeat;
-        border-radius: 100%;
-        width:50px ;
-        height:70px ;
-        border: 1px solid blue;
-        justify-content: center;
-        margin: auto;
-        margin-top: 5%;
-        border: 15% 15%;
-        
-            .menu-size-s:focus-visible {
-                .listado-menu{
-                   ul li { display: flex;
-                    flex-direction: column;
-                    list-style: none;
-                    text-decoration: none;
-                    display: inline;
-                    font-size: 2rem;
-                   }
-                }
-                .subtrulala{
-                    display: none;
-                }
-            
-            }
+        width: 70px;
+        height: 80px; 
+        z-index: 2;
+        position:absolute;
     }
     
-}
-*/
+    .traslacion{
+        background-image: url(../img/volador.svg);
+        background-repeat: no-repeat;
+        width: 70px;
+        height: 80px;
+        animation-name: vertical;
+        animation-play-state: paused;
+        animation: duration 1.5s;
+        animation-iteration-count:2 ;
+        display: contents;
+    }
+    .pausa:focus .traslacion{
+        display:flex;
+        animation-name: vertical;
+        animation-play-state:running;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    #volador:hover {
+        animation-name: vertical;
+        animation-play-state: paused;
+    }
+  
 
+
+
+    }
+
+            
 @media only screen and(min-width: $breakpoint-tablet){
     .audio{
         display: flex;
