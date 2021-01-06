@@ -1,5 +1,7 @@
 @import'fuentes','menu','inicio','servicios', 'contacto','trulala';
 
+
+
 @media only screen and ( max-width: #{$breakpoint-tablet - 1px} ){
 #clientes{
     margin-top: 10%;
@@ -25,7 +27,7 @@
 
   }
 
-  
+
    #cliente-1 {
   
     background-image: url(../img/imgoakiRecurso1.jpg);
