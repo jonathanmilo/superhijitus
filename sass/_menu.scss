@@ -187,7 +187,7 @@ $breakpoint-tablet: 768px;
         .subtrulala{
             position: absolute;;
             display: none;
-            margin-left: 88%;
+            margin-left: 82%;
             width: 20%;
               justify-items:start;
              z-index: -1;
@@ -205,12 +205,14 @@ $breakpoint-tablet: 768px;
             flex-direction: column;   
             transform: skewx(+7deg);
             justify-content: right;
+            background-color:white;
                a{
                    margin-bottom: -20px;
                    margin-top: -20px;   
                }
       
         }
+        
         
      }
 }

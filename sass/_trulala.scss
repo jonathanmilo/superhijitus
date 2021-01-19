@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin-left: 20%;
+    margin-left: 3vw;
     margin-top: 3%;
     display: inline;
     background-color: #fae5d3
@@ -20,7 +20,7 @@
     height: 249.986px;
 }
 #pucho {
-    margin-left: 8%;
+    margin-left: 3%;
     height: 249.986px;
 }
 
@@ -44,11 +44,13 @@
    z-index: -1;
 }
 
-#mapa {
+.mapa {
     margin-top: 5%;
     margin-bottom: 3%;
     background-color: #fae5d3;
-    width: 100vw;
+    width: 90%;
+    border-width: 0px;
+    margin-left: 3vw;
 }  
 }
 
@@ -57,7 +59,7 @@
 @media only screen and(min-width: $breakpoint-tablet){
     
 .información {
-    margin-top: 15%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -66,24 +68,32 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin-left: 20%;
+    
     margin-top: 3%;
     display: inline;
     background-color: #fae5d3
     
 }
 #asado{
-    height: 249.986px;
+    margin-left: 22%;
+    height:249.986px;
+    
 }
 #pucho {
     margin-left: 8%;
     height: 249.986px;
+    height:249.986px;
+
 }
 
 #pichichus {
     margin-right: 3%;
+    margin-left: 8%;
 }
-
+#larguirucho{
+    height: 22%s;
+    margin-left: 22%;
+}
 .turismo p {
     font-family:$fuente-info;
     padding-right: 10%;
@@ -95,6 +105,7 @@
     text-align: center;
     line-height: 2rem;
     z-index: -1;
+    margin-top: 11%;
 }
 
 .turismo {
@@ -103,10 +114,19 @@
    margin-top: 5%;
 }
 
-#mapa {
-    margin-top: 5%;
+.mapa {
+    
     margin-bottom: 3%;
-    background-color: #fae5d3;
-    margin: 0 20% 0 30%;
+    background-color:$colorprimario;
+    display: flex;
+    align-content: center;
+    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 2%;
+    border-width: 0px;
+    border-width: 0px;
+    width: 90%;
+    margin-left: 3vw;
 }
 }
