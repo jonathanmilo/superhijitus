@@ -114,10 +114,10 @@ $breakpoint-tablet: 768px;
   .carousel-item {
     width: 50%;
     margin-left: 25%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #carouselExampleDark{
-    margin-bottom:-10%;
+    max-resolution: bottom 0;;
     max-height: 20%;
     z-index: 1;
   }
